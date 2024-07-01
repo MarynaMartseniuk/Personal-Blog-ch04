@@ -1,0 +1,11 @@
+#blogContainer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#left-title,
+#right-form {
+    display: inline;
+    width: 50%;
+}
