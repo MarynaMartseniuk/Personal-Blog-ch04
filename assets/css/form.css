@@ -4,8 +4,23 @@
     
 }
 
+label,
+input{
+    display: block;
+}
+
+label{
+    font-size: 12px;
+}
+
 #left-title,
 #right-form {
     display: inline;
     width: 50%;
+}
+
+#username,
+#title,
+#content {
+    width: 90%;
 }
