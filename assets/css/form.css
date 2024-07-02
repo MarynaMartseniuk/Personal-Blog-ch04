@@ -1,6 +1,24 @@
+#left-appTitle{
+    /* display: flex; */
+    margin: 100px;
+}
+
+
+#titleLogo{
+    height: 200px; 
+    width: 200px;
+    border-style: solid;
+    border-radius: 100px;
+    background-image: linear-gradient(rgb(248, 217, 130), #834805);
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+
 #blogContainer {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
 }
 
@@ -15,8 +33,9 @@ label{
 
 #left-title,
 #right-form {
-    display: inline;
+    /* display:inline; */
     width: 50%;
+    flex: 1;
 }
 
 #username,
