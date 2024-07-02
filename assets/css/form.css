@@ -22,5 +22,40 @@ label{
 #username,
 #title,
 #content {
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: grey;
+    box-shadow: -1px 1px;
     width: 90%;
+}
+
+#username:hover,
+#title:hover,
+#content:hover {
+    border: 1px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+/* #username:enabled,
+#title:enabled,
+#content:enabled {
+    border: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: blue;
+} */
+
+#submitBtn{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 10px;
+    width: 92%;
+    cursor: pointer;
 }
