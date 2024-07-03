@@ -1,7 +1,8 @@
-#blogContainer{
-    border: 2;
-    border-radius: 5;
-    border-color: black;
-    background-color: white;
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
+
 
