@@ -1,26 +1,38 @@
+#blogContainer {
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+#left-title,
+#right-form {
+    /* display:inline; */
+    width: 50%;
+    /* flex: 1; */
+}
+
 #left-appTitle{
-    /* display: flex; */
-    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
 #titleLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px; 
     width: 200px;
     border-style: solid;
     border-radius: 100px;
     background-image: linear-gradient(rgb(248, 217, 130), #834805);
     color: white;
-    text-align: center;
-    align-items: center;
-
 }
 
-#blogContainer {
-    display: flex;
-    /* justify-content: space-between; */
-    
-}
+
 
 label,
 input{
@@ -31,12 +43,7 @@ label{
     font-size: 12px;
 }
 
-#left-title,
-#right-form {
-    /* display:inline; */
-    width: 50%;
-    flex: 1;
-}
+
 
 #username,
 #title,
