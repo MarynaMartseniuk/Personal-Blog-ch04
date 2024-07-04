@@ -3,7 +3,7 @@ h3 {
 }
 
 #topBlogContainer {
-    border-bottom: double rgb(49, 49, 49) 7px;
+    border-bottom: double var(--lBlack) 7px;
     margin: 0px;
     height: 15%;
     display: flex;
@@ -20,7 +20,7 @@ h3 {
     border: 1px;
     border-style:outset;
     border-color: black;
-    background-color: rgb(49, 49, 49);
+    background-color: var(--lBlack) ;
     color: rgb(247, 244, 244);
     font-size: 12px;
     cursor: pointer;
@@ -44,7 +44,7 @@ h3 {
 } */
 
 #bottomBlogContainer {
-    border-top: double rgb(49, 49, 49) 7px;
+    border-top: double var(--lBlack)  7px;
 }
 
 #heart::after {
