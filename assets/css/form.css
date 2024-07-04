@@ -13,13 +13,11 @@
 }
 
     #left-appTitle {
-        /* border: 10px; */
         border-right: double var(--lBlack)  7px;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 50%;
-        /* background-color: rgb(247, 244, 244); */
     }
 
         #titleLogo{
@@ -33,13 +31,11 @@
             border-radius: 100px;
             background-image: linear-gradient(rgb(248, 217, 130), #834805);
             color: var(--lGrey);
-            /* text-align: center; */
             align-items: center;
         }
 
     #right-form {
         width: 50%;
-        /* background-color: rgb(247, 244, 244); */
     }
 
         h3 {
@@ -51,8 +47,10 @@
         }
 
         label,
-        input{
+        input, 
+        textarea{
             display: block;
+            padding:5px;
         }
 
         label{
