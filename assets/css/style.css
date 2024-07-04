@@ -4,17 +4,26 @@ body {
     font-weight: 700;
     font-style: normal;
 }
+.light{
+    background-color: rgb(247, 244, 244);
+    color: black;
+}
+.dark {
+    background-color: black;
+    color: rgb(247, 244, 244);
+}
 
 #main {
     border: 2px;
     border-style:solid;
     border-color: rgb(199, 198, 198);
-    background-color: rgb(247, 244, 244);
+    /* background-color: rgb(247, 244, 244); */
 }
 
 #LDmode {
     border-style: none;
-    background-color: rgb(247, 244, 244);
+    cursor: pointer;
+    /* background-color: rgb(247, 244, 244); */
 }
 
 #LDmode::before {
