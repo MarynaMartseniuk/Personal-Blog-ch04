@@ -5,4 +5,22 @@ body {
     font-style: normal;
 }
 
+#main {
+    border: 2px;
+    border-style:solid;
+    border-color: rgb(199, 198, 198);
+    background-color: rgb(247, 244, 244);
+}
+
+#LDmode {
+    border-style: none;
+    background-color: rgb(247, 244, 244);
+}
+
+#LDmode::before {
+    font-family: Impact;
+    content: '\2600';
+    color: rgb(252, 216, 15);
+    margin-right: 5px;
+}
 

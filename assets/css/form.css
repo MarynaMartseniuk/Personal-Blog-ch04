@@ -1,16 +1,11 @@
-#main {
-    border: 2px;
-    border-style:solid;
-    border-radius: 5px;
-    border-color: rgb(199, 198, 198);
-    background-color: rgb(247, 244, 244);
-}
-
 #topContainer {
+    display: flex;
+    justify-content: end;
     border-bottom: double black 7px;
     margin: 0px;
     height: 15%;
 }
+
 
 #blogContainer {
     display: flex;

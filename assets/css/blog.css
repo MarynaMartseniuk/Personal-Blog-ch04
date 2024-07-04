@@ -1,0 +1,82 @@
+h3 {
+    margin-left: 10px;
+}
+
+#topBlogContainer {
+    border-bottom: double black 7px;
+    margin: 0px;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#backBtn {
+    height: 70%;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px;
+    border-style:outset;
+    border-color: black;
+    background-color: black;
+    color: rgb(247, 244, 244);
+    font-size: 12px;
+
+}
+
+/* #LDmode {
+    border-style: none;
+    background-color: rgb(247, 244, 244);
+} */
+
+#backBtn::before {
+    font-family: Impact;
+    content: '\21E6';
+    color: white;
+    margin-right: 5px;
+}
+
+/* #LDmode::before {
+    font-family: Impact;
+    content: '\2600';
+    color: rgb(252, 216, 15);
+    margin-right: 5px;
+} */
+
+/* #LDmode:active {
+    #LDmode::before {
+        font-family: Impact;
+        content: '\2605';
+        color: rgb(250, 250, 239);
+        margin-right: 5px;
+    }
+} */
+
+#bottomBlogContainer {
+    border-top: double black 7px;
+}
+
+#heart::after {
+    font-family: Impact;
+    content: '\2764';
+    color: rgb(231, 81, 81);
+    margin-right: 5px;
+}
+
+p {
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.signature {
+    font-weight: bold;
+}
+
+#endText {
+    text-align: center;
+    font-style: normal;
+}
