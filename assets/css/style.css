@@ -1,3 +1,10 @@
+:root {
+--lGrey: rgb(247, 244, 244);
+--dGrey: rgb(199, 198, 198);
+--lBlack: rgb(49, 49, 49);
+--dMode: rgb(27, 27, 27);
+}
+
 body {
     height: 100vh;
     font-family: "Roboto", sans-serif;
@@ -5,12 +12,12 @@ body {
     font-style: normal;
 }
 .light{
-    background-color: rgb(247, 244, 244);
-    color: black;
+    background-color: var(--lGrey);
+    color: var(--dMode);
 }
 .dark {
-    background-color: black;
-    color: rgb(247, 244, 244);
+    background-color: var(--dMode);
+    color: var(--lGrey);
 }
 
 #main {
