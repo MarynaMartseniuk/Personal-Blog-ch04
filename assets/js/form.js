@@ -31,7 +31,6 @@ submitButton.addEventListener('click', function (event) {
         titleInput.value = "";
         contentInput.value = "";
         window.location.replace("./blog.html");
-
     } else {
         alert("Please, fill in all sections to save your post!");
     };
