@@ -3,7 +3,7 @@ h3 {
 }
 
 #topBlogContainer {
-    border-bottom: double black 7px;
+    border-bottom: double rgb(49, 49, 49) 7px;
     margin: 0px;
     height: 15%;
     display: flex;
@@ -20,16 +20,12 @@ h3 {
     border: 1px;
     border-style:outset;
     border-color: black;
-    background-color: black;
+    background-color: rgb(49, 49, 49);
     color: rgb(247, 244, 244);
     font-size: 12px;
-
+    cursor: pointer;
 }
 
-/* #LDmode {
-    border-style: none;
-    background-color: rgb(247, 244, 244);
-} */
 
 #backBtn::before {
     font-family: Impact;
@@ -37,13 +33,6 @@ h3 {
     color: white;
     margin-right: 5px;
 }
-
-/* #LDmode::before {
-    font-family: Impact;
-    content: '\2600';
-    color: rgb(252, 216, 15);
-    margin-right: 5px;
-} */
 
 /* #LDmode:active {
     #LDmode::before {
@@ -55,7 +44,7 @@ h3 {
 } */
 
 #bottomBlogContainer {
-    border-top: double black 7px;
+    border-top: double rgb(49, 49, 49) 7px;
 }
 
 #heart::after {
