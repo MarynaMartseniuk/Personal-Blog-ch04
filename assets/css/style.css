@@ -24,14 +24,12 @@ body {
 #main {
     border: 2px;
     border-style:solid;
-    border-color: rgb(199, 198, 198);
-    /* background-color: rgb(247, 244, 244); */
+    border-color: var(--dGrey);
 }
 
 #LDmode {
     border-style: none;
     cursor: pointer;
-    /* background-color: rgb(247, 244, 244); */
 }
 
 #LDmode::before {
@@ -40,4 +38,3 @@ body {
     color: rgb(252, 216, 15);
     margin-right: 5px;
 }
-
