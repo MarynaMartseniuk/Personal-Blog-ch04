@@ -1,4 +1,4 @@
-// light/Dark mode
+// Light/Dark mode
 
 const LDmodeSwitch = document.querySelector('#LDmode');
 const container = document.querySelector('#main');
@@ -18,3 +18,4 @@ LDmodeSwitch.addEventListener('click', function () {
     LDmodeSwitch.setAttribute('class', 'light');
   };
 });
+//------------------------------
